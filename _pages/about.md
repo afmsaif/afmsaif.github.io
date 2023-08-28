@@ -47,8 +47,6 @@ My research interest lies in the field of Machine Learning, Optimization, and St
 - *2018 - 2022*, BSc Financial Mathematics, Xi-an Jiaotong-Liverpool University (University of Liverpool)
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
 - *2022.06 - 08*, Quantitative Analyst Intern, Hudsun Technology, China.
