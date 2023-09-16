@@ -17,11 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interest lies in the field of Machine Learning, Optimization, and Statistics.
-
-
-# 🔥 News
-
+I am Liuyuan Jiang, a first-year PhD student in the Department of Electrical, Computer, and Systems Engineering at Rensselaer Polytechnic Institute, advised by Dr. Tianyi Chen. With a background in statistics and mathematics, my academic focus lies in the realms of Optimization and Machine Learning. 
 
 # 📝 Publications 
 
@@ -32,7 +28,9 @@ My research interest lies in the field of Machine Learning, Optimization, and St
 - *2022 - 2023*, MPS Applied Statistics, Cornell University
 - *2018 - 2022*, BSc Financial Mathematics, Xi-an Jiaotong-Liverpool University (University of Liverpool)
 
-# 💬 Invited Talks
+# 💬 Project Experience
+- *2023.01-05* Master's Capstone Project, Cornell University, Ithaca, NY
+**Assessing Food Security Indicators and Livelihoods of Rural Households in Malawi: A Data Analysis Report for the Catholic Relief Services Project**
 
 # 💻 Internships
 - *2022.06 - 08*, Quantitative Analyst Intern, Hudsun Technology, China.
