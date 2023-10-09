@@ -17,20 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Liuyuan Jiang, a first-year PhD student in the Department of Electrical, Computer, and Systems Engineering at Rensselaer Polytechnic Institute, advised by Dr. Tianyi Chen. With a background in statistics and mathematics, my academic focus lies in the realms of Optimization and Machine Learning. 
+Welcome to my personal website! I am A F M Saif, and I invite you to explore my journey from my undergraduate days at Buet to my current pursuit of a Ph.D. at RPI. With a background in Electrical and Electronic Engineering from Buet, I graduated in 2018 and have since embarked on an exciting academic path. My research interests now lie in the fascinating realms of Machine Learning, Automatic Speech Recognition (ASR), and Optimization. Join me as I share my experiences, insights, and discoveries in these dynamic fields. Let's embark on this intellectual adventure together.
 
 # 📝 Publications 
-
+- CapsCovNet: A modified capsule network to diagnose Covid-19 from multimodal medical imaging
+- Exploiting cascaded ensemble of features for the detection of tuberculosis using chest radiographs
+- Eye gaze controlled immersive video navigation system for disabled people
+- Abnormality detection in musculoskeletal radiographs using capsule network
 # 🎖 Honors and Awards
 
 # 📖 Educations
 - *2023 - Now*, PhD student in Computer & System Engineering, Rensselaer Polytechnic Institute
-- *2022 - 2023*, MPS Applied Statistics, Cornell University
-- *2018 - 2022*, BSc Financial Mathematics, Xi-an Jiaotong-Liverpool University (University of Liverpool)
+- *2013 - 2018*, BSc in Electrical and Electronic Engineering, BUET
 
 # 💬 Project Experience
-- *2023.01-05* Master's Capstone Project, Cornell University, Ithaca, NY
-**Assessing Food Security Indicators and Livelihoods of Rural Households in Malawi: A Data Analysis Report for the Catholic Relief Services Project**
 
 # 💻 Internships
-- *2022.06 - 08*, Quantitative Analyst Intern, Hudsun Technology, China.
+
