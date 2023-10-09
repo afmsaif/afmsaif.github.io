@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Liuyuan Jiang"
+title                    : "A F M Saif"
 description              : "PhD student at RPI, Troy, NY"
-repository               : "Liuyuan999/Liuyuan999.github.io"
+repository               : "afmsaif/saif927.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Liuyuan Jiang"
-  avatar           : "images/LiuyuanJiang_homepic.jpeg"
+  name             : "A F M Saif"
+  avatar           : "images/IMG_5231.jpg"
   bio              : "Rensselaer Polytechnic Institute"
   location         : "Troy, NY"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "jiangl7@rpi.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=nuh1mNsAAAAJ&hl=en"
+  email            : "saifa@rpi.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "afmsaif"
   google_plus      :
   keybase          :
   instagram        :
