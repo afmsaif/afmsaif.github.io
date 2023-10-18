@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website! I am A F M Saif, and I invite you to explore my journey from my undergraduate days at Buet to my current pursuit of a Ph.D. at RPI. With a background in Electrical and Electronic Engineering from Buet, I graduated in 2018 and have since embarked on an exciting academic path. My research interests now lie in the fascinating realms of Machine Learning, Automatic Speech Recognition (ASR), and Optimization. Join me as I share my experiences, insights, and discoveries in these dynamic fields. Let's embark on this intellectual adventure together.
+Welcome to my personal website! I am A F M Saif, and I invite you to explore my journey from my undergraduate days at Buet to my current pursuit of a Ph.D. at RPI. With a background in Electrical and Electronic Engineering from Buet, I graduated in 2018 and have since embarked on an exciting academic path. My research interests now lie in the fascinating realms of Machine Learning, Automatic Speech Recognition (ASR), and Optimization. I have the privilege of pursuing my Ph.D. at RIP with the guidance of <a href="https://chentianyi1991.github.io/index.html" target="_blank">Professor Tianyi Chen</a>.Join me as I share my experiences, insights, and discoveries in these dynamic fields. Let's embark on this intellectual adventure together.
 
 # 📝 Publications 
 - CapsCovNet: A modified capsule network to diagnose Covid-19 from multimodal medical imaging
@@ -33,5 +33,4 @@ Welcome to my personal website! I am A F M Saif, and I invite you to explore my 
 
 # 💬 Project Experience
 
-# 💻 Internships
 
