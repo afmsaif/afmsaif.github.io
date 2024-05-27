@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "A F M Saif"
+excerpt: "Ph.D. Student at RPI | Machine Learning, ASR, and Optimization Enthusiast"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,24 +17,35 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website! I am A F M Saif, and I invite you to explore my journey from my undergraduate days at Buet to my current pursuit of a Ph.D. at RPI. With a background in Electrical and Electronic Engineering from Buet, I graduated in 2018 and have since embarked on an exciting academic path. My research interests now lie in the fascinating realms of Machine Learning, Automatic Speech Recognition (ASR), and Optimization. I have the privilege of pursuing my Ph.D. at RPI with the guidance of <a href="https://chentianyi1991.github.io/index.html" target="_blank">Professor Tianyi Chen</a>. Join me as I share my experiences, insights, and discoveries in these dynamic fields. Let's embark on this intellectual adventure together.
+# Welcome!
 
-# 📝 Publications 
-- <a href="https://ieeexplore.ieee.org/abstract/document/9514545" target="_blank">CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging</a>
-- <a href="https://ieeexplore.ieee.org/abstract/document/8736807" target="_blank">Abnormality Detection in Musculoskeletal Radiographs Using Capsule Network</a>
-- <a href="https://ieeexplore.ieee.org/abstract/document/9511553" target="_blank">Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs</a>
-- <a href="https://ieeexplore.ieee.org/abstract/document/9042470" target="_blank">Eye Gaze Controlled Immersive Video Navigation System for Disabled People</a>
+Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute (RPI). I have a background in Electrical and Electronic Engineering from BUET, where I graduated in 2018. My current research focuses on Machine Learning, Automatic Speech Recognition (ASR), and Optimization. I am fortunate to be guided by [Professor Tianyi Chen](https://chentianyi1991.github.io/index.html).
 
-# 🎖 Honors and Awards
+## 📝 Publications 
 
-# 📖 Educations
-- *2023 - Now*, PhD student in Computer & System Engineering, Rensselaer Polytechnic Institute
-- *2013 - 2018*, BSc in Electrical and Electronic Engineering, BUET
+- [CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging](https://ieeexplore.ieee.org/abstract/document/9514545)
+- [Abnormality Detection in Musculoskeletal Radiographs Using Capsule Network](https://ieeexplore.ieee.org/abstract/document/8736807)
+- [Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs](https://ieeexplore.ieee.org/abstract/document/9511553)
+- [Eye Gaze Controlled Immersive Video Navigation System for Disabled People](https://ieeexplore.ieee.org/abstract/document/9042470)
 
-# 💬 Project Experience
+## 🎖 Honors and Awards
 
-# 🗣️ Recent News
--*Dec 2023*: Our paper is accepted to ICASSP 2024 🥳🥳🥳\\
-<a href="https://arxiv.org/abs/2401.06980" target="_blank">Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization</a> 
+<!-- Add your honors and awards here -->
 
+## 📖 Education
 
+- **2023 - Present:** Ph.D. in Computer & System Engineering, Rensselaer Polytechnic Institute
+- **2013 - 2018:** BSc in Electrical and Electronic Engineering, BUET
+
+## 💬 Project Experience
+
+<!-- Add your project experiences here -->
+
+## 🗣️ Recent News
+
+- **Dec 2023:** Our paper is accepted to ICASSP 2024 🥳🥳🥳  
+  [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
+
+---
+
+Feel free to explore my website to learn more about my research, projects, and achievements. Let's embark on this intellectual adventure together!
