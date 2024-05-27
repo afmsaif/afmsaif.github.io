@@ -33,4 +33,7 @@ Welcome to my personal website! I am A F M Saif, and I invite you to explore my 
 
 # 💬 Project Experience
 
+# Recent News
+-Dec 2023: Our paper is accepted to ICASSP 2023
+
 
