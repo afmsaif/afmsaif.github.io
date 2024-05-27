@@ -37,9 +37,9 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 - **2023 - Present:** Ph.D. in Computer & System Engineering, Rensselaer Polytechnic Institute
 - **2013 - 2018:** BSc in Electrical and Electronic Engineering, BUET
 
-## 💬 Project Experience
+## 💬 Current Project
 
-<!-- Add your project experiences here -->
+- **2023 -- Now:** Foundation models for speech, optimization, distributed learning
 
 ## 🗣️ Recent News
 
