@@ -33,8 +33,8 @@ Welcome to my personal website! I am A F M Saif, and I invite you to explore my 
 
 # 💬 Project Experience
 
-# Recent News
+# 🗣️ Recent News
 -*Dec 2023*: Our paper is accepted to ICASSP 2024 \\
-<a href="https://arxiv.org/abs/2401.06980" target="_blank">Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization</a>
+<a href="https://arxiv.org/abs/2401.06980" target="_blank">Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization</a> 🥳🥳🥳
 
 
