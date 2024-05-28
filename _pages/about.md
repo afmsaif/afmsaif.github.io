@@ -50,6 +50,12 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 - **Dec 2023:** Our paper is accepted to ICASSP 2024 🥳🥳🥳  
   [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
 
+- **Aug 2021:** Our paper is accepted to IEEE TAI  
+  [CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging]
+(https://ieeexplore.ieee.org/abstract/document/9514545)
+
+
+
 ---
 
 Feel free to explore my website to learn more about my research, projects, and achievements. Let's embark on this intellectual adventure together!
