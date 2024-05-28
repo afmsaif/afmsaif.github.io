@@ -51,10 +51,14 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
   [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
 
 - **Aug 2021:** Our paper is accepted to IEEE TAI  
-  [CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging]
-(https://ieeexplore.ieee.org/abstract/document/9514545)
+  [CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging](https://ieeexplore.ieee.org/abstract/document/9514545)
+  
+- **Aug 2021:** Our paper is accepted to IEEE Access  
+  [Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs](https://ieeexplore.ieee.org/abstract/document/9511553)
 
 
+- **Jun 2019:** Our paper is accepted to IEEE Access  
+  [Abnormality Detection in Musculoskeletal Radiographs Using Capsule Network](https://ieeexplore.ieee.org/abstract/document/8736807)
 
 ---
 
