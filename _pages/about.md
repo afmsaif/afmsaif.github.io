@@ -21,21 +21,6 @@ redirect_from:
 
 Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute (RPI). I have a background in Electrical and Electronic Engineering from BUET, where I graduated in 2018. My current research focuses on Machine Learning, Automatic Speech Recognition (ASR), and Optimization. I am fortunate to be guided by [Professor Tianyi Chen](https://chentianyi1991.github.io/index.html).
 
-## 📝 Publications 
-
-### Journal Papers
-- [CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging](https://ieeexplore.ieee.org/abstract/document/9514545)
-- [Abnormality Detection in Musculoskeletal Radiographs Using Capsule Network](https://ieeexplore.ieee.org/abstract/document/8736807)
-- [Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs](https://ieeexplore.ieee.org/abstract/document/9511553)
-
-### Conference Papers
-- [Eye Gaze Controlled Immersive Video Navigation System for Disabled People](https://ieeexplore.ieee.org/abstract/document/9042470)
-- **Accepted to ICASSP 2024**: [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
-
-## 🎖 Honors and Awards
-
-<!-- Add your honors and awards here -->
-
 ## 📖 Education
 
 - **2023 - Present:** Ph.D. in Computer & System Engineering, Rensselaer Polytechnic Institute
@@ -50,15 +35,18 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 - **Dec 2023:** Our paper is accepted to ICASSP 2024 🥳🥳🥳  
   [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
 
-- **Aug 2021:** Our paper is accepted to IEEE TAI  
-  [CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging](https://ieeexplore.ieee.org/abstract/document/9514545)
-  
-- **Aug 2021:** Our paper is accepted to IEEE Access  
-  [Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs](https://ieeexplore.ieee.org/abstract/document/9511553)
 
+## 📝 Publications 
 
-- **Jun 2019:** Our paper is accepted to IEEE Access  
-  [Abnormality Detection in Musculoskeletal Radiographs Using Capsule Network](https://ieeexplore.ieee.org/abstract/document/8736807)
+### Journal Papers
+- [CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging](https://ieeexplore.ieee.org/abstract/document/9514545)
+- [Abnormality Detection in Musculoskeletal Radiographs Using Capsule Network](https://ieeexplore.ieee.org/abstract/document/8736807)
+- [Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs](https://ieeexplore.ieee.org/abstract/document/9511553)
+
+### Conference Papers
+- [Eye Gaze Controlled Immersive Video Navigation System for Disabled People](https://ieeexplore.ieee.org/abstract/document/9042470)
+- **Accepted to ICASSP 2024**: [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
+
 
 ---
 
