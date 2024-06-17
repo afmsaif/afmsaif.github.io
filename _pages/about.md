@@ -33,7 +33,7 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 ## 🗣️ Recent News
 
 - **June 2024:** Our paper is accepted to INTERSPEECH 2024 🥳🥳🥳  
-  multilingual speech recognition, speech-to-text translation, multi-objective learning, multi-task learning
+  [multilingual speech recognition, speech-to-text translation, multi-objective learning, multi-task learning](https://interspeech2024.org)
 - **Dec 2023:** Our paper is accepted to ICASSP 2024 🥳🥳🥳  
   [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
 
@@ -45,7 +45,7 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 - [Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs](https://ieeexplore.ieee.org/abstract/document/9511553)
 
 ### Conference Papers
-- **Accepted to INTERSPEECH 2024**: multilingual speech recognition, speech-to-text translation, multi-objective learning, multi-task learning
+- **Accepted to INTERSPEECH 2024**: [multilingual speech recognition, speech-to-text translation, multi-objective learning, multi-task learning](https://interspeech2024.org)
 - **Accepted to ICASSP 2024**: [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
 
 ---
