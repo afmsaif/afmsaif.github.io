@@ -23,20 +23,19 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 
 ## 📖 Education
 
-- **2023 - Present:** Ph.D. in Computer & System Engineering, Rensselaer Polytechnic Institute
+- **2023 - Present:** Ph.D. in Computer & Systems Engineering, Rensselaer Polytechnic Institute
 - **2013 - 2018:** BSc in Electrical and Electronic Engineering, BUET
 
 ## 💬 Current Project
 
-- **2023 -- Now:** Foundation models for speech, optimization, distributed learning
+- **2023 - Now:** Foundation models for speech, optimization, distributed learning
 
 ## 🗣️ Recent News
 
 - **June 2024:** Our paper is accepted to INTERSPEECH 2024 🥳🥳🥳  
   [multilingual speech recognition, speech-to-text translation, multi-objective learning, multi-task learning]
--**Dec 2023:** Our paper is accepted to ICASSP 2024 🥳🥳🥳  
+- **Dec 2023:** Our paper is accepted to ICASSP 2024 🥳🥳🥳  
   [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
-
 
 ## 📝 Publications 
 
@@ -48,7 +47,6 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 ### Conference Papers
 - **Accepted to INTERSPEECH 2024**: [multilingual speech recognition, speech-to-text translation, multi-objective learning, multi-task learning]
 - **Accepted to ICASSP 2024**: [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
-
 
 ---
 
