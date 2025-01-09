@@ -32,6 +32,12 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 
 ## 🗣️ Recent News
 
+- **December 2024:** Our paper is accepted to IEEE/ACM Transactions on Audio, Speech, and Language Processing 🥳🥳🥳  
+  [Bilevel Joint Unsupervised and Supervised Training for Automatic Speech Recognition](https://ieeexplore.ieee.org/abstract/document/10810454)
+
+- **September 2024:** Our paper is accepted to NeurIPS 2024 🥳🥳🥳  
+  [FERERO: A Flexible Framework for Preference-Guided Multi-Objective Learning](https://arxiv.org/pdf/2412.01773)
+
 - **June 2024:** Our paper is accepted to INTERSPEECH 2024 🥳🥳🥳  
   [multilingual speech recognition, speech-to-text translation, multi-objective learning, multi-task learning](https://interspeech2024.org)
 - **Dec 2023:** Our paper is accepted to ICASSP 2024 🥳🥳🥳  
@@ -40,11 +46,13 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 ## 📝 Publications 
 
 ### Journal Papers
+- [Bilevel Joint Unsupervised and Supervised Training for Automatic Speech Recognition](https://ieeexplore.ieee.org/abstract/document/10810454)
 - [CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging](https://ieeexplore.ieee.org/abstract/document/9514545)
 - [Abnormality Detection in Musculoskeletal Radiographs Using Capsule Network](https://ieeexplore.ieee.org/abstract/document/8736807)
 - [Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs](https://ieeexplore.ieee.org/abstract/document/9511553)
 
 ### Conference Papers
+- **Accepted to NeurIPS 2024**: [FERERO: A Flexible Framework for Preference-Guided Multi-Objective Learning](https://arxiv.org/pdf/2412.01773)
 - **Accepted to INTERSPEECH 2024**: [multilingual speech recognition, speech-to-text translation, multi-objective learning, multi-task learning](https://interspeech2024.org)
 - **Accepted to ICASSP 2024**: [Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization](https://arxiv.org/abs/2401.06980)
 
