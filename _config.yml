@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "A F M Saif"
-  avatar           : "saif.jpg"
+  avatar           : "https://github.com/afmsaif/afmsaif.github.io/blob/main/images/saif.jpg"
   bio              : "Rensselaer Polytechnic Institute"
   location         : "Troy, NY"
   employer         :
