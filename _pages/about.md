@@ -28,7 +28,7 @@ Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute 
 
 ## 💬 Current Project
 
-- **2023 - Now:** Foundation models for speech, optimization, distributed learning
+- **2023 - Now:** **Applications:** Machine learning, speech processing, LLM alignment for speech data, generative AI, and foundation models. **Theory:** Mathematical optimization including distributed, bilevel, multi-objective optimization, and nonconvex optimization for high-dimensional statistical learning.
 
 ## 🗣️ Recent News
 
