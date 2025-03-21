@@ -1,3 +1,10 @@
+/* .author__avatar img { */
+/*   border-radius: 0 !important; /* Remove oval shape and make it square */ */
+/* } */
+
 .author__avatar img {
-  border-radius: 0 !important; /* Remove oval shape and make it square */
+  border-radius: 0 !important;
+  width: 150px;    /* or your preferred width */
+  height: 150px;   /* must match width to enforce square */
+  object-fit: cover; /* prevent distortion, image crops automatically */
 }
