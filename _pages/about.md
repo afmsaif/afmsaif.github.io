@@ -19,7 +19,9 @@ redirect_from:
 
 # Welcome!
 
-Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute (RPI). I have a background in Electrical and Electronic Engineering from BUET, where I graduated in 2018. My current research focuses on Machine Learning, Automatic Speech Recognition (ASR), and Optimization. I am fortunate to be guided by [Professor Tianyi Chen](https://chentianyi1991.github.io/index.html).
+Hello! I am **A F M Saif**, a Ph.D. student at Rensselaer Polytechnic Institute (RPI). I have a background in Electrical and Electronic Engineering from BUET, where I graduated in 2018. My current research focuses on Machine Learning, Automatic Speech Recognition (ASR), and Optimization. 
+
+<!--I am fortunate to be guided by [Professor Tianyi Chen](https://chentianyi1991.github.io/index.html).-->
 
 ## 📖 Education
 
