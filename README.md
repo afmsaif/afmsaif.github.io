@@ -1,3 +1,24 @@
+# afmsaif.github.io
+
+Personal website of A F M Saif, served by GitHub Pages at <https://afmsaif.github.io>.
+
+## Updating the site
+
+| What | Where |
+| --- | --- |
+| Publications | `_data/publications.yml` — add an entry at the top of `selected` (newest first). Each entry has `title`, `authors`, `venue`, `year`, `status`, an optional one-sentence `summary`, and `links`. "A F M Saif" is bolded automatically. Unreleased work goes under `preprints`; older work under `earlier`. |
+| Homepage text (intro, research, experience, education, patents, service, contact) | `_pages/about.html` |
+| CV | Replace `assets/files/A_F_M_Saif_CV.pdf` with the new PDF, keeping the same file name. |
+| Photo | Keep the original in `assets/images/portrait/saif-original.png`. Re-export `saif-480.jpg` and `saif-800.jpg` (4:5 portrait), e.g. `sips -s format jpeg -s formatOptions 82 --resampleWidth 800 saif-original.png --out saif-800.jpg`. |
+| Styles | `assets/css/site.css` (colors are variables at the top) |
+| Page layout and metadata | `_layouts/home.html`; site-wide settings in `_config.yml` |
+
+Preview locally with `bundle exec jekyll serve` and open <http://localhost:4000>.
+
+The original theme notes from AcadHomepage follow below.
+
+---
+
 
 <h1 align="center">
 AcadHomepage

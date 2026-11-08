@@ -7,8 +7,11 @@
 
 # Site Settings
 title                    : "A F M Saif"
-description              : "PhD student at RPI, Troy, NY"
-repository               : "saif927.github.io"
+description              : "A F M Saif is a Ph.D. student at Rensselaer Polytechnic Institute working on LLM post-training, reinforcement learning, agentic AI, and optimization for foundation models."
+url                      : "https://afmsaif.github.io"
+baseurl                  : ""
+cv_pdf                   : "/assets/files/A_F_M_Saif_CV.pdf"
+repository               : "afmsaif/afmsaif.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,13 +25,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "A F M Saif"
-  avatar           : "https://raw.githubusercontent.com/afmsaif/afmsaif.github.io/main/images/saif.jpg"
+  avatar           : "/assets/images/portrait/saif-800.jpg"
   bio              : "Rensselaer Polytechnic Institute"
   location         : "Troy, NY"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=nuh1mNsAAAAJ&hl=en"
-  email            : "saifa@rpi.edu"
+  email            : "afmsaif927@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -67,6 +70,8 @@ include:
 exclude:
   - docs
   - google_scholar_crawler
+  - README.md
+  - run_server.sh
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -136,7 +141,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

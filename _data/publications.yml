@@ -1,0 +1,145 @@
+# Publications shown on the homepage, newest first.
+#
+# Fields
+#   title    Full paper title (required)
+#   authors  List of author names in paper order. The entry matching
+#            site.author.name ("A F M Saif") is emphasized automatically.
+#   venue    Short venue label shown as a tag, e.g. "NeurIPS 2025"
+#   venue_full  Optional long venue name shown under the authors
+#   year     Publication year (used for grouping)
+#   status   published | accepted | preprint
+#   summary  Optional one-sentence contribution summary
+#   links    Optional list of { label, url }. Use labels such as
+#            Paper, arXiv, Code, Proceedings. Only add verified links.
+#
+# Sections: "selected" appears in the main list, "earlier" goes in the
+# collapsible "Earlier work" block.
+
+selected:
+  - title: "BELLA: Efficient Bilevel Learning with LoRA for Multilingual ASR"
+    authors: ["A F M Saif", "Xiaodong Cui", "Brian Kingsbury", "Tianyi Chen"]
+    venue: "Interspeech 2026"
+    venue_full: "Annual Conference of the International Speech Communication Association (Interspeech)"
+    year: 2026
+    status: published
+    summary: "Connects a pretrained speech encoder to an LLM decoder with mixture-of-experts LoRA modules, learning routing and adaptation jointly as a bilevel problem to reduce cross-language interference."
+    links:
+      - { label: "Paper", url: "https://www.isca-archive.org/interspeech_2026/saif26_interspeech.html" }
+
+  - title: "Heterogeneous Self-Supervised Acoustic Pre-Training with Local Constraints"
+    authors: ["Xiaodong Cui", "A F M Saif", "Brian Kingsbury", "Tianyi Chen"]
+    venue: "ICASSP 2026"
+    venue_full: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    year: 2026
+    status: published
+    summary: "Adds per-source constraints to self-supervised pre-training on heterogeneous data, formulated as a bilevel problem so that a low average loss does not hide poorly served data sources."
+    links:
+      - { label: "Paper", url: "https://doi.org/10.1109/ICASSP55912.2026.11464771" }
+      - { label: "arXiv", url: "https://arxiv.org/abs/2508.19990" }
+
+  - title: "Objective Soups: Multilingual Multi-Task Modeling for Speech Processing"
+    authors: ["A F M Saif", "Lisha Chen", "Xiaodong Cui", "Songtao Lu", "Brian Kingsbury", "Tianyi Chen"]
+    venue: "NeurIPS 2025"
+    venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+    year: 2025
+    status: published
+    summary: "Compares multi-objective formulations for training one model on recognition and translation across languages, and finds that a bilevel recipe separating recognition and translation outperforms flat optimization."
+    links:
+      - { label: "Paper", url: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/188584a9e175a84cdf6b09fc6843f308-Abstract-Conference.html" }
+      - { label: "arXiv", url: "https://arxiv.org/abs/2508.09228" }
+      - { label: "Code", url: "https://github.com/afmsaif/Objective_Soups" }
+
+  - title: "A First-order Generative Bilevel Optimization Framework for Diffusion Models"
+    authors: ["Quan Xiao", "Hui Yuan", "A F M Saif", "Gaowen Liu", "Ramana Kompella", "Mengdi Wang", "Tianyi Chen"]
+    venue: "ICML 2025"
+    venue_full: "International Conference on Machine Learning (ICML), PMLR 267"
+    year: 2025
+    status: published
+    summary: "Treats diffusion hyperparameters such as entropy strength and noise schedules as upper-level variables, enabling gradient-based tuning during fine-tuning and pre-training."
+    links:
+      - { label: "Paper", url: "https://proceedings.mlr.press/v267/xiao25i.html" }
+      - { label: "arXiv", url: "https://arxiv.org/abs/2502.08808" }
+      - { label: "Code", url: "https://github.com/afmsaif/bilevel_diffusion" }
+
+  - title: "FERERO: A Flexible Framework for Preference-Guided Multi-Objective Learning"
+    authors: ["Lisha Chen", "A F M Saif", "Yanning Shen", "Tianyi Chen"]
+    venue: "NeurIPS 2024"
+    venue_full: "Advances in Neural Information Processing Systems (NeurIPS) 37"
+    year: 2024
+    status: published
+    summary: "Casts preference-guided multi-objective learning as constrained vector optimization, giving a single framework for steering models toward a desired trade-off between objectives."
+    links:
+      - { label: "arXiv", url: "https://arxiv.org/abs/2412.01773" }
+      - { label: "Code", url: "https://github.com/lisha-chen/FERERO" }
+
+  - title: "Bilevel Joint Unsupervised and Supervised Training for Automatic Speech Recognition"
+    authors: ["Xiaodong Cui", "A F M Saif", "Songtao Lu", "Lisha Chen", "Tianyi Chen", "Brian Kingsbury", "George Saon"]
+    venue: "IEEE/ACM TASLP 2024"
+    venue_full: "IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 33"
+    year: 2024
+    status: published
+    summary: "Journal extension of bilevel joint training, which couples self-supervised and supervised objectives instead of running them as separate pre-training and fine-tuning stages."
+    links:
+      - { label: "Paper", url: "https://doi.org/10.1109/TASLP.2024.3519869" }
+
+  - title: "M²ASR: Multilingual Multi-Task Automatic Speech Recognition via Multi-Objective Optimization"
+    authors: ["A F M Saif", "Lisha Chen", "Xiaodong Cui", "Songtao Lu", "Brian Kingsbury", "Tianyi Chen"]
+    venue: "Interspeech 2024"
+    venue_full: "Proc. Interspeech 2024, pp. 1240–1244"
+    year: 2024
+    status: published
+    summary: "Formulates multilingual multi-task ASR as constrained multi-objective optimization, with speech-to-text translation as an auxiliary supervised objective, to avoid conflicts between languages and tasks."
+    links:
+      - { label: "Paper", url: "https://www.isca-archive.org/interspeech_2024/saif24_interspeech.html" }
+      - { label: "Code", url: "https://github.com/afmsaif/M2ASR" }
+
+  - title: "Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization"
+    authors: ["A F M Saif", "Xiaodong Cui", "Han Shen", "Songtao Lu", "Brian Kingsbury", "Tianyi Chen"]
+    venue: "ICASSP 2024"
+    venue_full: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    year: 2024
+    status: published
+    summary: "Introduces BL-JUST, which places an unsupervised loss at the lower level and a supervised loss at the upper level, replacing the usual pre-train-then-fine-tune pipeline."
+    links:
+      - { label: "Paper", url: "https://doi.org/10.1109/ICASSP48485.2024.10447834" }
+      - { label: "arXiv", url: "https://arxiv.org/abs/2401.06980" }
+
+# Work not yet publicly available. Keep links empty until a public version exists.
+preprints:
+  - title: "Experience Is Not Always the Best Teacher: Identifying Harmful Memories in Agentic LLMs"
+    venue: "Preprint"
+    year: 2026
+    status: preprint
+    summary: "Studies when retrieved experiences help or degrade LLM agents, and how to identify the memories that hurt downstream performance."
+    note: "Public version forthcoming."
+
+earlier:
+  - title: "CapsCovNet: A Modified Capsule Network to Diagnose COVID-19 From Multimodal Medical Imaging"
+    authors: ["A F M Saif", "Tamjid Imtiaz", "Shahriar Rifat", "Celia Shahnaz", "Wei-Ping Zhu", "M. Omair Ahmad"]
+    venue: "IEEE TAI 2021"
+    year: 2021
+    links:
+      - { label: "Paper", url: "https://doi.org/10.1109/TAI.2021.3104791" }
+      - { label: "Code", url: "https://github.com/afmsaif/CapsCovNet-A-Modified-Capsule-Network-to-Diagnose-Covid-19-from-Multimodal-Medical-Imaging" }
+
+  - title: "Exploiting Cascaded Ensemble of Features for the Detection of Tuberculosis Using Chest Radiographs"
+    authors: ["A F M Saif", "Tamjid Imtiaz", "Celia Shahnaz", "Wei-Ping Zhu", "M. Omair Ahmad"]
+    venue: "IEEE Access 2021"
+    year: 2021
+    links:
+      - { label: "Paper", url: "https://doi.org/10.1109/ACCESS.2021.3102077" }
+      - { label: "Code", url: "https://github.com/afmsaif/Exploiting-Cascaded-Ensemble-of-Features-for-the-Detection-of-Tuberculosis-from-Chest-Radiographs" }
+
+  - title: "Eye Gaze Controlled Immersive Video Navigation System for Disabled People"
+    authors: ["Dipayan Saha", "A. Q. M. Sazzad Sayyed", "A F M Saif", "Celia Shahnaz", "Shaikh Anowarul Fattah"]
+    venue: "IEEE R10-HTC 2019"
+    year: 2019
+    links:
+      - { label: "Paper", url: "https://doi.org/10.1109/R10-HTC47129.2019.9042470" }
+
+  - title: "Abnormality Detection in Musculoskeletal Radiographs Using Capsule Network"
+    authors: ["A F M Saif", "Celia Shahnaz", "Wei-Ping Zhu", "M. Omair Ahmad"]
+    venue: "IEEE Access 2019"
+    year: 2019
+    links:
+      - { label: "Paper", url: "https://doi.org/10.1109/ACCESS.2019.2923008" }

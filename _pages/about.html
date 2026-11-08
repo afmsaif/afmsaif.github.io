@@ -1,0 +1,291 @@
+---
+layout: home
+permalink: /
+title: "A F M Saif"
+seo_title: "A F M Saif · LLM post-training, reinforcement learning, and optimization"
+description: "A F M Saif is a Ph.D. student at Rensselaer Polytechnic Institute working on LLM post-training, reinforcement learning, agentic AI, efficient adaptation, and bilevel and multi-objective optimization."
+redirect_from:
+  - /about/
+  - /about.html
+---
+{%- assign cv = site.cv_pdf | relative_url -%}
+{%- assign scholar = site.author.googlescholar -%}
+{%- assign github = "https://github.com/" | append: site.author.github -%}
+{%- assign email = site.author.email -%}
+{%- assign pubs = site.data.publications -%}
+
+<span id="top"></span>
+<span id="about-me"></span>
+
+<section class="hero container" aria-labelledby="hero-name">
+  <div class="hero-text">
+    <p class="eyebrow">Ph.D. student · Rensselaer Polytechnic Institute</p>
+    <h1 id="hero-name">A F M Saif</h1>
+    <p class="hero-role">Machine learning researcher working on LLM post-training, reinforcement learning, and agentic AI.</p>
+    <div class="hero-intro">
+      <p>I study what happens to large models after pre-training: how to improve them with supervised fine-tuning and reinforcement learning, how to adapt them cheaply to new languages and tasks, and how to combine specialized models without losing what each one learned.</p>
+      <p>My current work looks at agents that learn from their own experience. Not every retrieved memory helps, and some make an agent worse, so I work on deciding which experiences to keep and how to keep shared memory safe. Earlier, I used bilevel and multi-objective optimization to balance competing objectives in multilingual speech and foundation models.</p>
+      <p>I enjoy both the math and the training loop. At IBM Research in summer 2026, I built SFT and GRPO pipelines for 8–9B-parameter models from scratch in PyTorch.</p>
+    </div>
+    <ul class="hero-links" aria-label="Profiles and documents">
+      <li><a class="btn btn-primary" href="{{ cv }}" download>
+        <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M8 1.5v8.25M4.75 6.5 8 9.75l3.25-3.25M2.5 12.5h11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Download CV <span class="btn-note">PDF</span></a></li>
+      <li><a class="btn" href="{{ scholar }}" rel="noopener">Google Scholar</a></li>
+      <li><a class="btn" href="{{ github }}" rel="noopener">GitHub</a></li>
+      <li><a class="btn" href="mailto:{{ email }}">{{ email }}</a></li>
+    </ul>
+  </div>
+  <figure class="portrait">
+    <picture>
+      <img src="{{ '/assets/images/portrait/saif-800.jpg' | relative_url }}"
+           srcset="{{ '/assets/images/portrait/saif-480.jpg' | relative_url }} 480w, {{ '/assets/images/portrait/saif-800.jpg' | relative_url }} 800w"
+           sizes="(max-width: 760px) 200px, 340px"
+           width="800" height="999"
+           alt="Portrait of A F M Saif wearing glasses, a navy blazer, and a light blue shirt, against a plain gray background."
+           fetchpriority="high">
+    </picture>
+    <figcaption>Troy, New York</figcaption>
+  </figure>
+</section>
+
+<section class="glance container" aria-label="At a glance">
+  <dl class="glance-list">
+    <div>
+      <dt>Now</dt>
+      <dd>LLM post-training, RL, and alignment research at RPI</dd>
+    </div>
+    <div>
+      <dt>Summer 2026</dt>
+      <dd>Research Extern, LLM Post-Training, IBM Research</dd>
+    </div>
+    <div>
+      <dt>Recent papers</dt>
+      <dd><a href="#publications">Interspeech 2026 · ICASSP 2026 · NeurIPS 2025</a></dd>
+    </div>
+  </dl>
+</section>
+
+<section id="research" class="section" aria-labelledby="research-title">
+  <div class="container section-grid">
+    <header class="section-head">
+      <h2 id="research-title">Research</h2>
+      <p>Four connected threads, from how models are trained to how they are adapted and evaluated.</p>
+    </header>
+    <div class="section-body">
+      <article class="theme">
+        <h3><span class="theme-num" aria-hidden="true">01</span>Post-training and reinforcement learning for LLMs</h3>
+        <p>Improving a model after pre-training requires control of the whole loop: data, rollouts, rewards, memory limits, and evaluation. I write that loop myself rather than relying on off-the-shelf trainers, which makes failures easier to diagnose.</p>
+        <p>At IBM Research I reproduced post-training pipelines for Llama-3.1-8B and Gemma-2-9B, implemented SFT and GRPO for mathematical reasoning (rollout generation, group-relative advantages, and KL regularization to a reference policy), and trained with FSDP and DeepSpeed on multi-GPU nodes. I also evaluated model-merging methods, including Task Arithmetic, TIES, DARE, Fisher merging, RegMean, and Localize-and-Stitch, and sparse parameter adaptation for combining independently post-trained models with less cross-task interference.</p>
+        <p class="theme-refs"><span class="refs-label">Context</span> Industry research, IBM Research, summer 2026</p>
+      </article>
+
+      <article class="theme">
+        <h3><span class="theme-num" aria-hidden="true">02</span>Agentic AI: experience selection and memory safety</h3>
+        <p>Agents can improve without weight updates by reusing experience from earlier tasks. But some retrieved experiences help, some hurt, and bad memories can spread when memory is shared.</p>
+        <p>I build training-free GRPO pipelines that optimize an external experience library with verifier-based rewards, evaluated on HumanEval, AIME, and HotpotQA with Qwen2.5 and DeepSeek-R1-Distill models. To decide which experiences to keep, I use credit-assignment methods such as Shapley values, cardinality-restricted Shapley values, greedy selection, retrieval, and LLM-as-a-judge. I also study harmful-memory propagation and the robustness of agents that read from external or shared memory.</p>
+        <p class="theme-refs"><span class="refs-label">Related</span>
+          <a href="#pub-preprints">Harmful memories in agentic LLMs (preprint)</a>
+          <a href="https://github.com/afmsaif/training-free-grpo-shapley" rel="noopener">Research code: Shapley-guided experience refinement</a>
+        </p>
+      </article>
+
+      <article class="theme">
+        <h3><span class="theme-num" aria-hidden="true">03</span>Efficient adaptation of foundation models</h3>
+        <p>Fully fine-tuning a multi-billion-parameter model for every language or task is expensive and causes interference. I work on adaptation methods that train a small number of parameters and route inputs to the right ones.</p>
+        <p>BELLA connects a speech encoder to a Qwen2.5-7B decoder through a Q-Former bridge and adds mixture-of-experts LoRA with task-specific and shared experts. It trains roughly 72M parameters. Routing and adaptation are learned jointly as a bilevel problem with DeepSpeed ZeRO-2 on 8×A100 GPUs, and decoding combines candidate generation with LLM-based rescoring.</p>
+        <p class="theme-refs"><span class="refs-label">Related</span>
+          <a href="https://www.isca-archive.org/interspeech_2026/saif26_interspeech.html" rel="noopener">BELLA, Interspeech 2026</a>
+          <a href="https://doi.org/10.1109/ICASSP55912.2026.11464771" rel="noopener">Heterogeneous SSL pre-training, ICASSP 2026</a>
+        </p>
+      </article>
+
+      <article class="theme">
+        <h3><span class="theme-num" aria-hidden="true">04</span>Bilevel and multi-objective optimization for learning</h3>
+        <p>Most training involves more than one objective. Self-supervised and supervised losses pull in different directions, languages and tasks compete for capacity, users prefer particular trade-offs, and hyperparameters sit inside the training process itself. I treat these as structured optimization problems rather than loss weights to hand-tune.</p>
+        <p>With collaborators, I replaced the usual pre-train-then-fine-tune pipeline with joint bilevel training for speech recognition, used conflict-aware multi-objective optimization to train one model for recognition and translation across languages, and helped develop methods for preference-guided multi-objective learning and for gradient-based hyperparameter tuning in diffusion models.</p>
+        <p class="theme-refs"><span class="refs-label">Related</span>
+          <a href="https://arxiv.org/abs/2508.09228" rel="noopener">Objective Soups, NeurIPS 2025</a>
+          <a href="https://proceedings.mlr.press/v267/xiao25i.html" rel="noopener">Generative bilevel optimization, ICML 2025</a>
+          <a href="https://arxiv.org/abs/2412.01773" rel="noopener">FERERO, NeurIPS 2024</a>
+          <a href="https://www.isca-archive.org/interspeech_2024/saif24_interspeech.html" rel="noopener">M²ASR, Interspeech 2024</a>
+          <a href="https://arxiv.org/abs/2401.06980" rel="noopener">BL-JUST, ICASSP 2024</a>
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="section" aria-labelledby="pubs-title">
+  <span id="-publications"></span>
+  <div class="container section-grid">
+    <header class="section-head">
+      <h2 id="pubs-title">Publications</h2>
+      <p>Newest first. See <a href="{{ scholar }}" rel="noopener">Google Scholar</a> for the complete and current record.</p>
+    </header>
+    <div class="section-body">
+      {%- assign groups = pubs.selected | group_by: "year" -%}
+      {%- for g in groups %}
+      <div class="pub-year">
+        <h3 class="year-label">{{ g.name }}</h3>
+        <ol class="pub-list">
+          {%- for p in g.items %}{% include publication.html pub=p %}{% endfor %}
+        </ol>
+      </div>
+      {%- endfor %}
+
+      <div class="pub-year" id="pub-preprints">
+        <h3 class="year-label">Preprints</h3>
+        <ol class="pub-list">
+          {%- for p in pubs.preprints %}{% include publication.html pub=p %}{% endfor %}
+        </ol>
+      </div>
+
+      <details class="earlier">
+        <summary>Earlier work in medical imaging and assistive technology, 2019–2021 <span class="count">({{ pubs.earlier | size }})</span></summary>
+        <ol class="pub-list pub-list-compact">
+          {%- for p in pubs.earlier %}{% include publication.html pub=p %}{% endfor %}
+        </ol>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section" aria-labelledby="exp-title">
+  <div class="container section-grid">
+    <header class="section-head">
+      <h2 id="exp-title">Experience</h2>
+      <p>Industry and academic research. The full details are in the <a href="{{ cv }}" download>CV</a>.</p>
+    </header>
+    <div class="section-body">
+      <ol class="roles">
+        <li class="role">
+          <p class="role-date">Summer 2026</p>
+          <div>
+            <h3>Research Extern, LLM Post-Training</h3>
+            <p class="role-org">IBM Research · Yorktown Heights, NY</p>
+            <ul>
+              <li>Reproduced LLM post-training pipelines for Llama-3.1-8B and Gemma-2-9B with training loops written directly in PyTorch, and validated task-specialized models against reported results on math, coding, multilingual, instruction-following, and safety benchmarks.</li>
+              <li>Implemented SFT and gradient-based GRPO for mathematical reasoning on NuminaMath-TIR (72K examples).</li>
+              <li>Trained 8–9B-parameter models on 4×A100 GPUs, using FSDP sharding and DeepSpeed to stay within memory, with end-to-end preprocessing, checkpointing, inference, and evaluation workflows.</li>
+              <li>Diagnosed NaN losses caused by long prompts whose truncation removed every supervised target token, and filtered the affected examples to restore stable training.</li>
+              <li>Implemented and compared model-merging methods and studied sparse adaptation to reduce cross-task interference.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="role">
+          <p class="role-date">2026 – present</p>
+          <div>
+            <h3>Researcher, LLM Post-Training, RL, and Alignment</h3>
+            <p class="role-org">Rensselaer Polytechnic Institute · Troy, NY</p>
+            <ul>
+              <li>Built training-free GRPO pipelines that optimize an external experience library with group-relative advantages and verifier-based rewards.</li>
+              <li>Developed experience-selection and credit-assignment methods to separate experiences that help downstream performance from those that degrade it.</li>
+              <li>Investigating agentic AI alignment and memory safety, including harmful-memory propagation.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="role">
+          <p class="role-date">2025 – 2026</p>
+          <div>
+            <h3>Researcher, Parameter-Efficient LLM Adaptation</h3>
+            <p class="role-org">Rensselaer Polytechnic Institute / IBM Research · Troy, NY</p>
+            <ul>
+              <li>Developed BELLA, combining a speech encoder, Q-Former bridge, and Qwen2.5-7B decoder for multilingual speech recognition.</li>
+              <li>Designed mixture-of-experts LoRA with task-specific and shared experts, adapting the LLM with roughly 72M trainable parameters.</li>
+              <li>Trained with DeepSpeed ZeRO-2 across 8×A100 GPUs and built decoding pipelines with LLM-based rescoring.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="role">
+          <p class="role-date">2023 – 2025</p>
+          <div>
+            <h3>Graduate Research Assistant, Foundation Models and Optimization</h3>
+            <p class="role-org">Rensselaer Polytechnic Institute · Troy, NY</p>
+            <ul>
+              <li>Developed bilevel and conflict-aware multi-objective training methods for large pretrained speech models, leading to papers at ICASSP, TASLP, Interspeech, and NeurIPS and two IBM–RPI patent applications.</li>
+              <li>Contributed to optimization methods for diffusion models (ICML 2025) and preference-guided multi-objective learning (NeurIPS 2024).</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+
+      <div class="skills">
+        <h3>Methods and tools</h3>
+        <dl>
+          <div><dt>Post-training</dt><dd>SFT, GRPO, reward design, model merging, LoRA / PEFT, mixture-of-experts</dd></div>
+          <div><dt>Systems</dt><dd>Distributed multi-GPU training, FSDP, DeepSpeed ZeRO, checkpointing, CUDA, Slurm, Linux</dd></div>
+          <div><dt>Frameworks</dt><dd>PyTorch (custom training loops), Hugging Face Transformers, Weights &amp; Biases, NumPy, SciPy</dd></div>
+          <div><dt>Evaluation</dt><dd>Math reasoning, code generation, multilingual, instruction-following, and safety benchmarks; LLM-as-a-judge</dd></div>
+          <div><dt>Optimization</dt><dd>Bilevel, multi-objective, stochastic, and nonconvex optimization</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="background" class="section" aria-labelledby="bg-title">
+  <div class="container section-grid">
+    <header class="section-head">
+      <h2 id="bg-title">Background</h2>
+      <p>Education, patent applications, and service.</p>
+    </header>
+    <div class="section-body bg-grid">
+      <div class="bg-block">
+        <h3>Education</h3>
+        <ol class="plain-list">
+          <li>
+            <p class="item-title">Ph.D., Electrical, Computer, and Systems Engineering <span class="tag">In progress</span></p>
+            <p class="item-sub">Rensselaer Polytechnic Institute · 2023 – present</p>
+            <p class="item-sub">Focus: machine learning, large language models, and optimization</p>
+          </li>
+          <li>
+            <p class="item-title">M.S., Electrical, Computer, and Systems Engineering</p>
+            <p class="item-sub">Rensselaer Polytechnic Institute · 2023 – 2025</p>
+          </li>
+          <li>
+            <p class="item-title">B.Sc., Electrical and Electronic Engineering</p>
+            <p class="item-sub">Bangladesh University of Engineering and Technology (BUET), Dhaka · 2013 – 2018</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="bg-block">
+        <h3>Patent applications</h3>
+        <ol class="plain-list">
+          <li>
+            <p class="item-title">Joint Unsupervised and Supervised Training for Automatic Speech Recognition <span class="tag">Application</span></p>
+            <p class="item-sub">X. Cui, <strong class="me">A F M Saif</strong>, T. Chen · U.S. Patent Application No. 19/293,954</p>
+          </li>
+          <li>
+            <p class="item-title">A Method for Multilingual Multi-task Acoustic Modeling Based on Conflict-Avoidance Multi-objective Optimization <span class="tag">Application</span></p>
+            <p class="item-sub">X. Cui, <strong class="me">A F M Saif</strong>, L. Chen, S. Lu, T. Chen, B. Kingsbury · U.S. Patent Application No. 18/731,228</p>
+          </li>
+        </ol>
+        <p class="note">Both are patent applications, not granted patents. They are jointly owned by IBM and Rensselaer Polytechnic Institute.</p>
+      </div>
+
+      <div class="bg-block">
+        <h3>Reviewing</h3>
+        <p class="item-sub">NeurIPS; IEEE Transactions on Signal Processing; IEEE Signal Processing Letters; IEEE Journal of Selected Topics in Signal Processing; IEEE Journal of Biomedical and Health Informatics; IEEE Access; Asilomar Conference on Signals, Systems, and Computers; IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section section-contact" aria-labelledby="contact-title">
+  <div class="container section-grid">
+    <header class="section-head">
+      <h2 id="contact-title">Contact</h2>
+    </header>
+    <div class="section-body">
+      <p class="contact-lead">I’m open to research scientist and research engineer roles and to research collaborations on LLM post-training, reinforcement learning, and agentic AI. Email is the best way to reach me.</p>
+      <p class="contact-email"><a href="mailto:{{ email }}">{{ email }}</a></p>
+      <ul class="contact-links">
+        <li><a href="{{ cv }}" download>CV <span class="muted">(PDF)</span></a></li>
+        <li><a href="{{ scholar }}" rel="noopener">Google Scholar</a></li>
+        <li><a href="{{ github }}" rel="noopener">GitHub · afmsaif</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
