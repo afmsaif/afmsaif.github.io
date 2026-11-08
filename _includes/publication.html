@@ -1,0 +1,30 @@
+{%- comment -%}
+  Renders one publication from _data/publications.yml.
+  Usage: {% include publication.html pub=item %}
+{%- endcomment -%}
+{%- assign pub = include.pub -%}
+<li class="pub">
+  <p class="pub-meta">
+    <span class="pub-venue">{{ pub.venue }}</span>
+    {%- if pub.status == "accepted" %}<span class="pub-status">Accepted</span>{% endif -%}
+  </p>
+  <h3 class="pub-title">{{ pub.title }}</h3>
+  {%- if pub.authors %}
+  <p class="pub-authors">
+    {%- for a in pub.authors -%}
+      {%- if a == site.author.name -%}<strong class="me">{{ a }}</strong>{%- else -%}{{ a }}{%- endif -%}
+      {%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor -%}
+  </p>
+  {%- endif %}
+  {%- if pub.venue_full %}<p class="pub-venue-full">{{ pub.venue_full }}</p>{% endif %}
+  {%- if pub.summary %}<p class="pub-summary">{{ pub.summary }}</p>{% endif %}
+  {%- if pub.links or pub.note %}
+  <p class="pub-links">
+    {%- for l in pub.links -%}
+      <a href="{{ l.url }}" rel="noopener">{{ l.label }}<span class="visually-hidden">: {{ pub.title }}</span></a>
+    {%- endfor -%}
+    {%- if pub.note %}<span class="pub-note">{{ pub.note }}</span>{% endif -%}
+  </p>
+  {%- endif %}
+</li>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- assign page_title = page.seo_title | default: site.title -%}
+  {%- assign page_desc = page.description | default: site.description -%}
+  {%- assign canonical = page.url | replace: 'index.html', '' | absolute_url -%}
+  {%- assign share_image = '/assets/images/portrait/saif-800.jpg' | absolute_url -%}
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc | strip_newlines | escape }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <link rel="canonical" href="{{ canonical }}">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description" content="{{ page_desc | strip_newlines | escape }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ share_image }}">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="999">
+  <meta property="og:image:alt" content="Portrait of A F M Saif">
+  <meta property="profile:first_name" content="A F M">
+  <meta property="profile:last_name" content="Saif">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page_title | escape }}">
+  <meta name="twitter:description" content="{{ page_desc | strip_newlines | escape }}">
+  <meta name="twitter:image" content="{{ share_image }}">
+
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "A F M Saif",
+    "url": "{{ site.url }}",
+    "image": "{{ share_image }}",
+    "email": "mailto:{{ site.author.email }}",
+    "jobTitle": "Ph.D. student and machine learning researcher",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Rensselaer Polytechnic Institute" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Bangladesh University of Engineering and Technology" },
+    "sameAs": ["{{ site.author.googlescholar }}", "https://github.com/{{ site.author.github }}"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="{{ '/' | relative_url }}#top">A F M Saif</a>
+      <nav class="site-nav" aria-label="Sections">
+        <ul>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#background">Background</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="header-cv" href="{{ site.cv_pdf | relative_url }}" download>CV <span class="visually-hidden">(PDF)</span><span aria-hidden="true">PDF</span></a>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© {{ site.time | date: '%Y' }} A F M Saif · Troy, New York</p>
+      <p>Updated {{ site.time | date: '%B %Y' }} · <a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+</body>
+</html>
